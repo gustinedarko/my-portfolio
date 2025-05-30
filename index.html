@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" class="scroll-smooth">
 
 <head>
     <meta charset="UTF-8">
@@ -15,17 +15,16 @@
 <body>
 
     <nav id="navbar" class="font-medium fixed uppercase text-sm text-white flex gap-16 justify-center items-center py-4 w-full transition-all duration-300">
-        <span class="hover:text-blue-500 nav-text"><a href="">HOME</a></span>
+        <span class="hover:text-blue-500 nav-text"><a href="#home">HOME</a></span>
         <span class="nav-text text-white hover:text-blue-400 transition-colors duration-200"><a href="#about">ABOUT</a></span>
-        <span class="nav-text text-white hover:text-blue-400 transition-colors duration-200"><a href="#project">PROJECTS</a></span>
+        <span class="nav-text text-white hover:text-blue-400 transition-colors duration-200"><a href="#projects">PROJECTS</a></span>
         <span class="nav-text text-white hover:text-blue-400 transition-colors duration-200"><a href="#skills">SKILLS</a></span>
         <span class="nav-text text-white hover:text-blue-400 transition-colors duration-200"><a href="#resume">RESUME</a></span>
         <span class="nav-text text-white hover:text-blue-400 transition-colors duration-200"><a href="#testimonial">TESTIMONIAL</a></span>
         <span class="nav-text text-white hover:text-blue-400 transition-colors duration-200"><a href="#contact">CONTACT</a></span>
     </nav>
 
-    <header
-        class="bg-[url(./images/profile-output-backgroundimage.jpg)] bg-cover bg-fixed bg-center h-screen py-4 w-full bg-no-repeat">
+    <header id="home" class="bg-[url(./images/profile-output-backgroundimage.jpg)] bg-cover bg-fixed bg-center h-screen py-4 w-full bg-no-repeat">
         <div class="text-white text-center py-60">
             <p class="text-7xl font-light">Hi, I'm</p>
             <p class="text-7xl font-bold">Augustine Darko</p>
@@ -35,7 +34,7 @@
         </div>
     </header>
 
-    <section class="bg-center py-4 bg-[#222222] text-white">
+    <section id="about" class="bg-center py-4 bg-[#222222] text-white">
         <div class="bg-[#333333] shadow flex flex-col my-4 py-6 justify-center rounded-2xl shadow-md transform hover:scale-105 transition duration-300">
             <h1 class="text-5xl text-center font-bold mb-4"><span class="font-light">About</span> Me</h1>
             <p class="max-w-3xl mx-auto text-lg leading-relaxed text-[#e0e0e0] px-4 sm:px-6 md:px-0">I'm a passionate
@@ -49,7 +48,7 @@
         </div>
     </section>
 
-    <section class="bg-center py-4 bg-[#222222] text-white">
+    <section id="projects" class="bg-center py-4 bg-[#222222] text-white scroll-mt-15">
         <h1 class="text-5xl text-center font-bold mb-4"><span class="font-light">My</span> Project</h1>
         <h2 class="font-semibold text-[#00ADB5] text-center p-4 text-xl">Web Development Projects</h2>
 
@@ -61,12 +60,12 @@
             </div>
 
             <div class="bg-[#333333] p-6 rounded-2xl shadow-md">
-                <a href="http://" target="_blank"><img src="./images/emeraldd&d.jpeg" alt="Drag and Drop Demonstration"></a>
+                <a href="http://https://team-emerald-ochre.vercel.app/" target="_blank"><img src="./images/emeraldd&d.jpeg" alt="Drag and Drop Demonstration"></a>
                 <p>Drag and Drop Gamified Demonstration was a project designed for a group presentation to enlighten our colleagues about the HTML API's. The tools used in the development of this where HTML, CSS, and Javascript.</p>
             </div>
 
             <div class="bg-[#333333] p-6 rounded-2xl shadow-md">
-                <a href="http://" target="_blank"><img src="" alt="My Portfolio"></a>
+                <a href="http://my-portfolio-six-rose-22.vercel.app/" target="_blank"><img src="./images/portfolio-landingpage.jpeg" alt="My Portfolio"></a>
                 <p>This current portfolio project was designed to potral and record my skills and progress as a junior web developer. The tools used in the development of this where HTML, CSS, and Javascript.</p>
             </div>
         </div>
@@ -97,7 +96,7 @@
         </div>
     </section> 
 
-    <section class="bg-center py-4 bg-[#222222] text-white">
+    <section id="skills" class="bg-center py-4 bg-[#222222] text-white scroll-mt-15">
         <h1 class="text-5xl text-center font-bold mb-4"><span class="font-light">My</span> Skills</h1>
 
         <div class="grid gap-8 md:grid-cols-2 lg:grid-cols-3 px-4 md:px-10 lg:px-20 mt-10">
@@ -120,7 +119,7 @@
         </div>  
     </section>
 
-    <section class="bg-center py-4 bg-[#222222] text-white">
+    <section id="resume" class="bg-center py-4 bg-[#222222] text-white scroll-mt-15">
         <h1 class="text-5xl text-center font-bold mb-4"><span class="font-light">My</span> Resume</h1>
         <div class="container mx-auto px-4 py-8 grid grid-cols-1 md:grid-cols-2 gap-6 md:gap-12">
             <div class="space-y-6 border-0 p-6 rounded-lg shadow bg-[#333333] p-6 rounded-2xl shadow-md">
@@ -171,7 +170,7 @@
 
     </section>
 
-    <section class="bg-center py-4 bg-[#222222]">
+    <section id="testimonial" class="bg-center py-4 bg-[#222222] scroll-mt-15">
         <h1 class="text-5xl text-center font-bold mb-4 text-white"><span class="font-light">Peer</span> Recommendations</h1>
         <div class="grid gap-8 md:grid-cols-2 lg:grid-cols-3 px-4 md:px-10 lg:px-20 text-[#e0e0e0] mt-10">
             <div class="bg-[#333333] p-6 rounded-2xl shadow-md">
@@ -198,7 +197,7 @@
         </div>
     </section>
 
-    <section class="bg-center py-10 px-4 bg-[#333333]">
+    <section id="contact" class="bg-center py-10 px-4 bg-[#333333]">
         <h1 class="text-5xl text-center font-bold mb-4 text-white"><span class="font-light">Contact</span> Me</h1>
 
         <div class="text-center mb-6">
